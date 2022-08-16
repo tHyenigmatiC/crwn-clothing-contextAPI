@@ -1,0 +1,24 @@
+ContextAPI:
+    - Way less verbose to write than Redux.
+    - Lightweight solution for local storage management than Redux.
+
+Redux:
+    - Can utilize he flexibility of redux ecosystem like sagas, thunk, being able to 
+        handle async actions inside of redux middleware
+    - Maintains recomposibility of our component using HOC like connect. It increases the 
+        reusability of component.  
+    Where as we loose all this systems using ContextAPI
+
+
+When to use ContextAPI?
+    We can use context API for smaller to medium projects. In such projects its better if we can
+    skip all those codes and files that need to be written for setting up redux store. Also we 
+    don't need redux ecosystems such as sagas, thunks and async actions. Would be ideal for 
+    projects such as portfolio project, personal portfolio project, landing pages and projects which
+    doesn't have high complexity, high code reusability.
+
+When to use redux?
+    When using redux we have the flexibility to use the redux ecosystem that consists of sagas,
+    thunks, handling and firing asycn actions inside redux middleware. Comparatively it is more
+    verbose than using ContextAPI. But its good for large scale projects, projects where we are
+    implemented code reusability, complex projects, e.t.c.
